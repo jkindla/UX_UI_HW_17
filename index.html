@@ -5,20 +5,24 @@
             Josh Kindla's Page
         </title>
 
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
         <body>
             
             <header class="navigation">
                 
                 <div class="inline-block logo">
-                    <img src="images/logo.png" alt="Logo" width="50" height="50">
+                    <img src="images/logo.png" alt="Logo" width="60" height="30">
                 </div>
-
                 <nav class="inline-block">
                     <ul>
-                        <li class="inline-block">about</li>
-                        <li class="inline-block">skills</li>
-                        <li class="inline-block">work</li>
-                        <li class="inline-block">contact</li>
+                        <li class="inline-block">About</li>
+                        <li class="inline-block">Skills</li>
+                        <li class="inline-block">Work</li>
+                        <li class="inline-block">Contact</li>
                     </ul>
                 </nav>
 
@@ -27,26 +31,30 @@
             <section class="heroImg">
                
                 <div class="content">
-                    <img src="images/heroimg.png">
-                    <p>Hello, I’m Joshua Kindla. I’m a programmer and designer. I focus on developing mobile and web applications based on extensive user research.</p>
-                    <button type="button" onclick="alert('Downloading Resume')">Download Resume</button>
+                   <h1>Hello, I’m Joshua Kindla. </h1>
+                    <p>I’m a programmer and designer. I focus on developing mobile and web applications based on extensive user research.</p>
+            
+                    <button class="button" onclick="alert('Downloading Resume')" style="vertical-align:middle"> <span>Download Resume</span></button>
                
                 </div>
+
+                <div>
+                    <img src="images/heroimg.png">
+                    
+                </div>
+
             </section>
 
             <footer>
 
-                <ul>
-                    <li class="inline-block">about</li>
-                    <li class="inline-block">skills</li>
-                    <li class="inline-block">work</li>
-                    <li class="inline-block">contact</li>
+                <ul id="footerlist">
+                    <li class="inline-block">About</li>
+                    <li class="inline-block">Skills</li>
+                    <li class="inline-block">Work</li>
+                    <li class="inline-block">Contact</li>
                 </ul>
 
             </footer>
-
-
-
 
         </body>
     </head>
